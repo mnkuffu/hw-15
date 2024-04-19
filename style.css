@@ -1,0 +1,24 @@
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); 
+    grid-auto-rows: minmax(100px, auto); 
+    gap: 5px; 
+}
+
+.day, .lesson {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.day {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.lesson {
+    background-color: #e0e0e0;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
